@@ -1,0 +1,29 @@
+@media print{
+    #printTerms .table thead th{
+        border:none;
+        color:#fff;
+        background: rgba(29, 173, 0, 0.75) !important;
+    }
+    #printTerms .table thead th{
+        text-align:left
+    }
+    #printTerms h1{
+        font-weight: 550;
+        font-family: 'Roboto', sans-serif;
+        font-size:18px;
+        text-align:center;
+    }
+    #printTerms h3{
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        font-size:14px;
+    }
+    #printTerms h3 input{
+        width:150px;
+        border:none
+    }
+    .table-responsive{
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+}
